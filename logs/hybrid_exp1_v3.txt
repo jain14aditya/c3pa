@@ -1,0 +1,442 @@
+Some weights of GPT2HeadWithValueModel were not initialized from the model checkpoint at af1tang/personaGPT and are newly initialized: ['v_head.summary.weight', 'v_head.summary.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+Some weights of GPT2HeadWithValueModel were not initialized from the model checkpoint at af1tang/personaGPT and are newly initialized: ['v_head.summary.weight', 'v_head.summary.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+wandb: Currently logged in as: parthushah8 (team7). Use `wandb login --relogin` to force relogin
+cuda
+
+###################################### Training config ##################################################
+
+Training c3pa model stored at : hybrid_exp1_v3 | with weights : 0.25 and 0.75 on cuda 
+
+KL Hyperparameters -> Initial KL coeff = 0.5 ||  Adaptive KL control = True
+
+###################################### Step 1: Loading all the models ##################################################
+
+wandb: wandb version 0.12.17 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.12.16
+wandb: Run data is saved locally in /home/pshah7/c3pa/wandb/run-20220601_114441-19q9nmim
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run hybrid_exp1_v3
+wandb: ⭐️ View project at https://wandb.ai/team7/c3pa
+wandb: 🚀 View run at https://wandb.ai/team7/c3pa/runs/19q9nmim
+
+###################################### Step 2: Processing the training data ##################################################
+
+Processed 17877 conversations resulting in 434836 queries.
+
+###################################### Step 3: PPO Training ##################################################
+
+
+ ---------------------------------------- Epoch 0 ------------------------------------------------------------- 
+
+
+ -------------------------- Model stats after 1000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8465567891642514 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 1000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 2000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8467058415315987 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 2000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 3000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8192245983508856 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 3000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 4000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.844576210256917 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 4000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 5000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8680880658341957 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 5000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 6000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8644646650828872 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 6000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 7000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8534005156878683 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 7000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 8000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8263775473306377 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 8000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 9000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8221389342592956 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 9000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 10000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8565763542040077 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 10000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 11000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8155091975371506 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 11000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 12000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8303249696082712 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 12000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 13000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.842577374622857 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 13000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 14000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8428312778898363 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 14000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 15000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8403363065725352 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 15000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 16000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8280385222680852 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 16000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 17000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.875272263198789 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 17000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 18000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8586195867701244 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 18000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 19000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8354133549382513 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 19000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 20000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8368020148837276 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 20000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 21000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8607699427549597 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 21000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 22000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8597645791102623 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 22000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 23000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8477423136812722 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 23000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 24000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8538649508257659 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 24000 training iterations ----------------------------------------- 
+/home/pshah7/miniconda3/envs/personaGPT/lib/python3.7/site-packages/transformers/pipelines/base.py:901: UserWarning: You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+  UserWarning,
+
+
+ -------------------------- Model stats after 25000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8437037894052409 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 25000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 26000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.849171835983574 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 26000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 27000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8532886879466424 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 27000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 28000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8470074086645163 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 28000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 29000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8622263907689685 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 29000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 30000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8622131296124098 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 30000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 31000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8646315679876061 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 31000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 32000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8113303218421734 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 32000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 33000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8469957815717225 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 33000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 34000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8336612875977043 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 34000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 35000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8846674850892087 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 35000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 36000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.862757238740649 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 36000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 37000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8437941436689252 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 37000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 38000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8620384260547471 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 38000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 39000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8582499618589682 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 39000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 40000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8537449724471772 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 40000 training iterations ----------------------------------------- 
+
+
+ -------------------------- Model stats after 41000 training iterations ----------------------------------------- 
+
+
+ Averaged reward over last 1000 runs is 0.8336720642834007 
+
+
+ -------------------------- Saving model at c3pa_models/hybrid_exp1_v3 after 41000 training iterations ----------------------------------------- 
+
+
+ ********************* Reloading last-saved Model @ query num : 41891 ***************************** 
+
+
+ ---------------------------------------- Epoch 1 ------------------------------------------------------------- 
+
+
+ ---------------------------------------- Epoch 2 ------------------------------------------------------------- 
+
+
+ ---------------------------------------- Epoch 3 ------------------------------------------------------------- 
+
+
+ ###################################### 1697457 errors out of 434836 ################################################## 
+
+
+ ###################################### Step 4: Saving the Model at c3pa_models/hybrid_exp1_v3 ################################################## 
+
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: \ 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: | 0.001 MB of 0.001 MB uploaded (0.000 MB deduped)wandb: / 0.001 MB of 1.047 MB uploaded (0.000 MB deduped)wandb: - 0.001 MB of 1.061 MB uploaded (0.000 MB deduped)wandb: \ 1.061 MB of 1.061 MB uploaded (0.000 MB deduped)wandb: | 1.061 MB of 1.061 MB uploaded (0.000 MB deduped)wandb: / 1.061 MB of 1.061 MB uploaded (0.000 MB deduped)wandb: - 1.061 MB of 1.061 MB uploaded (0.000 MB deduped)wandb: \ 1.061 MB of 1.061 MB uploaded (0.000 MB deduped)wandb: | 1.061 MB of 1.061 MB uploaded (0.000 MB deduped)wandb: / 1.061 MB of 1.061 MB uploaded (0.000 MB deduped)wandb:                                                                                
+wandb: 
+wandb: Run history:
+wandb:   env/error_count ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:        env/reward ▇▇███▇█▇██▇▁▇█████████▇▇▇█▆▇██▁▇█▂▇█▇██▅
+wandb: rewards/coherence ▄▄▂▄▆▆▅▂▂▅▁▃▄▄▄▃▇▆▃▃▆▆▄▅▄▅▅▄▆▆▆▁▄▃█▆▄▆▅▃
+wandb:   rewards/overall ▄▄▂▄▆▆▅▂▂▅▁▃▄▄▄▃▇▆▃▃▆▆▄▅▄▅▅▄▆▆▆▁▄▃█▆▄▆▅▃
+wandb: rewards/sentiment ▁▂▃▅▅▃▄▄▄▄▅▄▆▄▅▃▆▅▆▄▆▅▄▇▇▅▆▃▅▆▅▄▅▇▅▄▇▅█▇
+wandb: 
+wandb: Run summary:
+wandb:   env/error_count 0
+wandb:        env/reward 0.8649
+wandb: rewards/coherence 0.83367
+wandb:   rewards/overall 0.83367
+wandb: rewards/sentiment 0.65633
+wandb: 
+wandb: Synced hybrid_exp1_v3: https://wandb.ai/team7/c3pa/runs/19q9nmim
+wandb: Synced 6 W&B file(s), 0 media file(s), 0 artifact file(s) and 0 other file(s)
+wandb: Find logs at: ./wandb/run-20220601_114441-19q9nmim/logs

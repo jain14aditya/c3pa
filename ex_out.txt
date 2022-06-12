@@ -1,0 +1,29 @@
+------------- Chat ------------
+Human  0 :  hi, how are you doing? i'm getting ready to do some cheetah chasing to stay in shape.
+Human  1 :  you must be very fast. hunting is one of my favorite hobbies.
+Human  0 :  i am! for my hobby i like to do canning or some whittling.
+Human  1 :  i also remodel homes when i am not out bow hunting.
+Human  0 :  that's neat. when i was in high school i placed 6th in 100m dash!
+Human  1 :  that's awesome. do you have a favorite season or time of year?
+Human  0 :  i do not. but i do have a favorite meat since that is all i eat exclusively.
+Human  1 :  what is your favorite meat to eat?
+Human  0 :  i would have to say its prime rib. do you have any favorite foods?
+Human  1 :  i like chicken or macaroni and cheese.
+Human  0 :  do you have anything planned for today? i think i am going to do some canning.
+Human  1 :  i am going to watch football. what are you canning?
+Human  0 :  i think i will can some jam. do you also play footfall for fun?
+**************************************************************************
+Human  0 :  hi, how are you doing? i'm getting ready to do some cheetah chasing to stay in shape.
+Human  1 :  you must be very fast. hunting is one of my favorite hobbies.
+Human  0 :  i am! for my hobby i like to do canning or some whittling.
+Human  1 :  i also remodel homes when i am not out bow hunting.
+Human  0 :  that's neat. when i was in high school i placed 6th in 100m dash!
+Human  1 :  that's awesome. do you have a favorite season or time of year?
+Human  0 :  i do not. but i do have a favorite meat since that is all i eat exclusively.
+Human  1 :  what is your favorite meat to eat?
+Human  0 :  i would have to say its prime rib. do you have any favorite foods?
+Human  1 :  i like chicken or macaroni and cheese.
+Human  0 :  do you have anything planned for today? i think i am going to do some canning.
+Human  1 :  i am going to watch football. what are you canning?
+Human  0 :  i think i will can some jam. do you also play footfall for fun?
+**************************************************************************
